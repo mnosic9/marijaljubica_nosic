@@ -1,28 +1,43 @@
-  @charset "UTF-8";
-    /*CSS Document */
-	p {
-		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-		font-size: 16px; 
-		line-height: 18px; 
-		width: 600px;
-		background-color: wheat;
-		padding: 20px
-	}
-	h1, h2 {
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		color: cadetblue; 
-	}
-    body {
-		background-image: url("slike/pozadina.jpg");
-		background-size: cover;
-	}
-a: link 	{
+@charset "utf-8";
+/* CSS Document */
+p{
+    color: black;
+	font-family: Press Start 2P;
+	font-size: 18px;
+	line-height: 20px
+	width: 600 px;
+	background-color: #FAEBD7;
+	padding: 20px;
+}
+ h1 {
 	color: black;
-	background-color: white;
-	padding: 5px;
-	line-height: 40px;
-	border: 1px solid #000000;
-    } 
+	font-family: Didot;
+	font-size: 36px;
+	line-height: 38px
+	width: 600 px;
+	padding: 20px;
+ }
+
+ h2 {
+	font family:Times New Roman;
+	color: black;
+}
+
+body {
+background-image: url("Nova mapa/pozadinaa.jpg");
+background-size: cover;
+}
+
+a:link {
+	 color: black;
+	 background-color: white;
+	 padding: 5px;
+	 line-height: 40px;
+	 border:1px solid #000000;
+}
 a:hover {
-	background-color: darkgray;
+	 background-color: darkgray;
+}
+img {
+	height: 200px;
 }

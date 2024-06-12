@@ -1,46 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-     <meta charset="UTF-8">
-     <title>Marija Ljubica Nosić - moj html dokument</title>
-	 <link rel="stylesheet" href="stil.css"/>
+<meta charset="utf-8">
+<title>index</title>
+ <link rel="stylesheet" href="stil.css"/>
+<style>
+@font-face {
+    font-family: "MojFont";
+    src: url("MarijaLjubicaNosic.ttf");
+}
+
+h1 {
+    font-family: "MojFont";
+}
+
+ul.navmenu {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+ul.navmenu li {
+    background: #FAEBD7;
+    margin: 4px;
+    list-style-type: none;
+}
+ul.navmenu a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000; 
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 68px;
+    padding: 0px 12px;
+}
+ul.navmenu a:hover {
+    color: #FAEBD7;
+}
+</style>
 </head>
 <body>
-	 <h1>Digitalni multimedij 1</h1>
-	 <h2>Marija Ljubica Nosić</h2>
-	 <p>Zovem se <b>Marija Ljubica Nosić</b>. Odrasla sam u <i>Požegi</i>. Studiram dizajn grafičkog proizvoda na <mark>Grafičkom fakultetu</mark>.<br/>
-	 Ovo je citat unutar paragrafa <q>Sometimes life is a bitch and than you keep living.</q>- Diane
-	 </p>
-	 <p>Ovo je drugi paragraf teksta! U njemu se nalazi blok citat:</p>
-	 <blockquote>
-	            Such a pretty house<br/>
-	            such a pretty garden.<br/>
-	            - radiohead
-	 </blockquote>
-	 <p>Ovo je nastavak teksta u istom paragrafu!
-	 </p>
-	 <p>Ovom tekstu ću <span style="color: red;">promijeniti stil</span>!</p>
-	 <a href="vjezba1.html">Link na drugi html</a>
-	 <h2>LISTE</h2>
-	 <p>Glazba koju slušam:</p>
-	 <ol>
-	    <li>Radiohead - Creep</li>
-		<li>Tory Lanez - Prom King // Love On Acid</li>
-		<li>Frank Sinatra - That's Life</li>
-	 </ol>
-	 <p>Knjige koje čitam:</p>
-	 <ul>
-	    <li>Sally Rooney - Normal people</li>
-		<li>Albert Camus - Stranger</li>
-		<li>Donna Tart - Secret history</li>
-	 </ul>
-	 <h2>Navigacijska lista s linkovima:</h2>
-	 <nav>
-	     <ul>
-		    <li><a href="https://www.grf.unizg.hr/">Link na web stranicu!</a></li>
-			<li><a href="Vjezba1.html">Link na html dokument!</a></li>
-			<li><a href="slike/10_vježba_HTML.pdf">Link na pdf!</a></li>
-		 </ul> 
-	 </nav>
+<h1>Marija Ljubica Nosić</h1>
+<h2>Kolegij Digitalni multimedij 1</h2>
+<p>Ja sam <b>Marija Ljubica Nosić</b>. Dobrodošli na <i>moje stranice</i>.</p>
+
+<nav>
+    <ul class="navmenu">
+        <li><a href="omeni.html">O meni</a></li>
+        <li><a href="vjezbe.html">Vježbe</a></li>
+        <li><a href="video.html">Video</a></li>
+    </ul>
+</nav>
+
 </body>
 </html>
